@@ -1,0 +1,65 @@
+.bookCardContainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+}
+
+.bookCardDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-image: url('../../photos/book.jpg');
+  background-size: cover;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.deleteButton:hover {
+  background-color: rgb(180, 21, 21);
+}
+
+.bookCardDivHover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(38, 39, 80);
+  /* transition: transform 0.3s ease; */
+}
+
+/* .bookCardContainer:hover .bookCardDivHover {
+  transform: rotateY(180deg);
+} */
+
+.editButton {
+    background-color: rgb(255, 122, 17);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.editButton:hover {
+  background-color: rgb(204, 99, 18);
+}
+
+.pageText {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

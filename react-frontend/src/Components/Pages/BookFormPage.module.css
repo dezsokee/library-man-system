@@ -1,0 +1,73 @@
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.h1text {
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.formAlDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 1.0rem;
+    border: 1px solid rgb(255, 122, 17);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+    color: rgb(255, 122, 17);
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(255, 122, 17);
+    box-shadow: 0 0 0 3px rgba(255, 122, 17, 0.3);
+}
+
+.addBookButton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(255, 122, 17);
+    color: rgb(255, 255, 255);
+    font-size: 1.0rem;
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(255, 255, 255, 0.1), 0 1px 3px rgba(255, 255, 255, 0.08);
+}

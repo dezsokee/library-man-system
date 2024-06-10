@@ -1,0 +1,12 @@
+.headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 145, 0);
+}
+
+.logo {
+    height: 100px;
+}

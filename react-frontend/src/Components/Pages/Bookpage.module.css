@@ -1,0 +1,62 @@
+.mainBookDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.titleH1 {
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.booksDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.addBookButton {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(255, 122, 17);
+    color: rgb(255, 255, 255);
+    font-size: 1.0rem;
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(255, 255, 255, 0.1), 0 1px 3px rgba(255, 255, 255, 0.08);
+}
+
+.searchInput {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 122, 17);
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1.0rem;
+}
+
+.searchSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    width: 100%;
+}
