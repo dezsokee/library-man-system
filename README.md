@@ -4,6 +4,7 @@
 Project carried out under the mentoring programme. The website allows you to register, search and add libraries and books. You can also edit or delete books if you wish.
 
 During the development of the project, I learned how to design the backend architecture and how to communicate with external databases. The software written in **.NET** follows a multi-level clean architecture. The frontend is written in **React**, it is clean, easy to use, giving the user a minimalistic way to register libraries and books.
+The software was deployed on Microsoft Azure.
 
 Below are some photos of the app 👇
 
